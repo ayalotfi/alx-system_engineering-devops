@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# page conatining Hello Holbertona.
+# Start Apache so as to return a.
+echo "ServerName localhost" >> /etc/apache2.conf
+service apache2 start
